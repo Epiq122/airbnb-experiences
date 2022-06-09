@@ -1,20 +1,20 @@
 import './Card.css';
-import katie from '../img/image 12.png';
+
 import star from '../img/Star 1.png';
 
-function Card() {
+function Card(props) {
   return (
     <div className='card'>
-      <img src={katie} alt='' className='katie--img' />
+      <img src={props.img} className='katie--img' alt='katie' />
       <div className='card--stats'>
         <img src={star} alt='' className='star--img' />
-        <span>5.0</span>
-        <span className='gray'>(6) •</span>
-        <span className='gray'>USA</span>
+        <span>{props.rating}</span>
+        <span className='gray'>{props.reviewCount}</span>
+        <span className='gray'> {props.country}</span>
       </div>
-      <p>Life Lessons with Katie Zaferes</p>
+      <p>{props.title}</p>
       <p>
-        <strong className='bold'>From $136</strong> / person
+        <strong className='bold'>From ${props.price}</strong> / person
       </p>
     </div>
   );
