@@ -1,4 +1,4 @@
-import group from '../img/Group 77.png';
+import group from '../images/photo-grid.png';
 import './Hero.css';
 function Hero() {
   return (

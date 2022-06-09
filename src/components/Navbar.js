@@ -1,4 +1,4 @@
-import airbnb from '../img/airbnb 1.png';
+import airbnb from '../../src/images/airbnb-logo.png';
 import './Navbar.css';
 
 function Navbar() {
