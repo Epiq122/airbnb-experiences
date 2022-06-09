@@ -1,0 +1,19 @@
+.card {
+  width: 175px;
+  font-size: 12px;
+  margin-left: 37px;
+  margin-top: 49px;
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+}
+
+.star--img {
+  height: 14px;
+}
+
+p {
+  width: 175px;
+}
